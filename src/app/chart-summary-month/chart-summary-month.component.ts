@@ -13,6 +13,7 @@ import { TimeSeriesMonthComponent } from "../time-series-month/time-series-month
   templateUrl: './chart-summary-month.component.html',
   styleUrl: './chart-summary-month.component.css'
 })
+
 export class ChartSummaryMonthComponent {
   constructor(private zone: NgZone) { }
 
@@ -34,6 +35,7 @@ export class ChartSummaryMonthComponent {
       dy: 1
     });
 
+    //8888888
     // Set themes
     root.setThemes([
       am5themes_Animated.new(root),
